@@ -1,8 +1,8 @@
 var s = '\n';
 
-for (var i = 0; i <= 5; i++) {
+for (var i = 0; i <= 6; i++) {
 
-    for (var k = 0; k < 5 - i; k++) {
+    for (var k = 0; k < 6 - i; k++) {
         s += ' ';
     }
 
@@ -19,10 +19,10 @@ for (var i = 0; i <= 5; i++) {
     s += '\n';
 }
 
-for (var i = 4; i >= 0 ; i--) {
+for (var i = 5; i >= 0 ; i--) {
 
     
-    for (var k = 0; k < 5 - i; k++) {
+    for (var k = 0; k < 6 - i; k++) {
         s += ' ';
     }
 
