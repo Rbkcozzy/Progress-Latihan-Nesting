@@ -6,7 +6,7 @@ for (var i = 0; i <= 5; i++) {
     
     // Tambahkan spasi di depan
     for (var k = 0; k < 5 - i; k++) {
-        s += ' ';
+        s += '-';
     }
 
 
@@ -14,11 +14,7 @@ for (var i = 0; i <= 5; i++) {
        
         s += '*';
     }
-    
-     for (var j = 1; j <= i; j++) {
-       
-        s += '*';
-    }
+
     s += '\n';
 }
 
