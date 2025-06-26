@@ -1,41 +1,16 @@
-var s = '\n';
+var s = '';
 
-for (var i = 0; i <= 6; i++) {
+for (var i = 0; i <= 6 ; i++) 
 
-    for (var k = 0; k < 6 - i; k++) {
+{   if (i % 2 === 0) {
         s += ' ';
     }
-
-
-    for (var j = 0; j <= i; j++) {
-       
-        s += '*';
-    }
     
-     for (var j = 1; j <= i; j++) {
-       
-        s += '*';
-    }
-    s += '\n';
-}
 
-for (var i = 5; i >= 0 ; i--) {
-
-    
-    for (var k = 0; k < 6 - i; k++) {
-        s += ' ';
+    for (var k = 1; k <= 6; k++) {
+        s += ' #';
     }
 
-
-    for (var j = 0; j <= i; j++) {
-       
-        s += '*';
-    }
-    
-     for (var j = 1; j <= i; j++) {
-       
-        s += '*';
-    }
     s += '\n';
 }
 
